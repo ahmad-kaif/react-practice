@@ -1,0 +1,49 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .card-name {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .card-profile {
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .card-place {
+    color: #999;
+    margin-bottom: 15px;
+  }
+  
+  .card-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .card-btn:hover {
+    background: #0056b3;
+  }
+  
