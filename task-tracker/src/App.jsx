@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import TaskList from './components/TaskList';
 import TaskForm from './components/TaskForm';
+import Navbar from './components/Navbar';
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -25,11 +26,15 @@ function App() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="max-w-xl mx-auto p-4">
       <Header />
       <TaskForm onAdd={addTask} />
       <TaskList tasks={tasks} onDelete={deleteTask} onToggle={toggleCompletion} />
     </div>
+    </>
+    
   );
 }
 
