@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import Square from './Square'
-import calculateWinner from '../utils/calculateWinner'
+import calculateWinner from '../utils/Winner'
 
 function Board({ xIsNext, squares, onPlay }) {
   const winner = calculateWinner(squares)

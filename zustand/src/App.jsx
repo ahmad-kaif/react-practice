@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '20px' }}>
-      <h1>Tic-Tac-Toe</h1>
+      <h1>Zustand Implimentation</h1>
       <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       <div style={{ marginTop: '10px' }}>
         <ol>
